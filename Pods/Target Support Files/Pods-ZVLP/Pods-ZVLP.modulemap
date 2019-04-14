@@ -1,0 +1,6 @@
+framework module Pods_ZVLP {
+  umbrella header "Pods-ZVLP-umbrella.h"
+
+  export *
+  module * { export * }
+}

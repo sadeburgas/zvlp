@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16795034DF583180980F0DCD /* Pods_ZVLP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A4AF3BAC835326F5EA63F5 /* Pods_ZVLP.framework */; };
 		1C17995422357A8E00F8EBB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C17995322357A8E00F8EBB6 /* AppDelegate.swift */; };
-		1C17995622357A8E00F8EBB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C17995522357A8E00F8EBB6 /* ViewController.swift */; };
-		1C17995922357A8E00F8EBB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C17995722357A8E00F8EBB6 /* Main.storyboard */; };
-		1C17995B22357A9200F8EBB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C17995A22357A9200F8EBB6 /* Assets.xcassets */; };
+		1C17995622357A8E00F8EBB6 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C17995522357A8E00F8EBB6 /* MainVC.swift */; };
 		1C17995E22357A9200F8EBB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C17995C22357A9200F8EBB6 /* LaunchScreen.storyboard */; };
+		1C17996622357D0500F8EBB6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C17996522357D0500F8EBB6 /* GoogleService-Info.plist */; };
+		1C38855F2244265900EE8351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C38855E2244265800EE8351 /* Assets.xcassets */; };
+		1C81ACFA22386060002B65B4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81ACF922386060002B65B4 /* Constants.swift */; };
+		1C81ACFC2238819F002B65B4 /* Thought.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81ACFB2238819F002B65B4 /* Thought.swift */; };
+		1C81ACFE22388507002B65B4 /* ThoughtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81ACFD22388507002B65B4 /* ThoughtCell.swift */; };
+		1C99E09C223EE033007F5B4E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C99E09B223EE033007F5B4E /* LoginVC.swift */; };
+		1C99E09E223EF0AD007F5B4E /* CreateUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C99E09D223EF0AD007F5B4E /* CreateUserVC.swift */; };
+		1CA211DA2257D25800C97FF9 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA211D92257D25800C97FF9 /* KeyboardBoundView.swift */; };
+		1CA527C0225D0BF100C3B49E /* UpdateCommentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA527BF225D0BF100C3B49E /* UpdateCommentVC.swift */; };
+		1CD5C9932237280D002FF915 /* AddThoughtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5C9922237280D002FF915 /* AddThoughtVC.swift */; };
+		1CE67281224F8DF8008A9898 /* CommentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE67280224F8DF8008A9898 /* CommentsVC.swift */; };
+		1CE67283224F96D4008A9898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE67282224F96D4008A9898 /* Main.storyboard */; };
+		1CE67285224F9CB0008A9898 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE67284224F9CB0008A9898 /* CommentCell.swift */; };
+		1CE67287224FA3A3008A9898 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE67286224FA3A3008A9898 /* Comment.swift */; };
+		1CF73099224AE507008E4964 /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF73098224AE507008E4964 /* Alertable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C17995022357A8E00F8EBB6 /* ZVLP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZVLP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C17995322357A8E00F8EBB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1C17995522357A8E00F8EBB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1C17995822357A8E00F8EBB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1C17995A22357A9200F8EBB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C17995522357A8E00F8EBB6 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		1C17995D22357A9200F8EBB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C17995F22357A9200F8EBB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C17996522357D0500F8EBB6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1C38855E2244265800EE8351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C81ACF922386060002B65B4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1C81ACFB2238819F002B65B4 /* Thought.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thought.swift; sourceTree = "<group>"; };
+		1C81ACFD22388507002B65B4 /* ThoughtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtCell.swift; sourceTree = "<group>"; };
+		1C99E09B223EE033007F5B4E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		1C99E09D223EF0AD007F5B4E /* CreateUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserVC.swift; sourceTree = "<group>"; };
+		1CA211D92257D25800C97FF9 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
+		1CA527BF225D0BF100C3B49E /* UpdateCommentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCommentVC.swift; sourceTree = "<group>"; };
+		1CD5C9922237280D002FF915 /* AddThoughtVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddThoughtVC.swift; sourceTree = "<group>"; };
+		1CE67280224F8DF8008A9898 /* CommentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsVC.swift; sourceTree = "<group>"; };
+		1CE67282224F96D4008A9898 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1CE67284224F9CB0008A9898 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		1CE67286224FA3A3008A9898 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		1CF73098224AE507008E4964 /* Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
+		45B7646354638FD716E0BF29 /* Pods-ZVLP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZVLP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZVLP/Pods-ZVLP.debug.xcconfig"; sourceTree = "<group>"; };
+		48A4AF3BAC835326F5EA63F5 /* Pods_ZVLP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZVLP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E6CB89A2B582A85639FE7E /* Pods-ZVLP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZVLP.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZVLP/Pods-ZVLP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16795034DF583180980F0DCD /* Pods_ZVLP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +71,8 @@
 			children = (
 				1C17995222357A8E00F8EBB6 /* ZVLP */,
 				1C17995122357A8E00F8EBB6 /* Products */,
+				FF0E8F2CF6FCC951855C61C7 /* Pods */,
+				B5F6EC1BEBF51A7F3144EF28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,84 @@
 		1C17995222357A8E00F8EBB6 /* ZVLP */ = {
 			isa = PBXGroup;
 			children = (
+				1CF73097224AE4DA008E4964 /* Protocols */,
+				1C81ACF82238602C002B65B4 /* Utilities */,
+				1C7BD1592235DA77001D678B /* Model */,
+				1C7BD15B2235DAAC001D678B /* View */,
+				1C7BD15A2235DA89001D678B /* Controler */,
 				1C17995322357A8E00F8EBB6 /* AppDelegate.swift */,
-				1C17995522357A8E00F8EBB6 /* ViewController.swift */,
-				1C17995722357A8E00F8EBB6 /* Main.storyboard */,
-				1C17995A22357A9200F8EBB6 /* Assets.xcassets */,
+				1CE67282224F96D4008A9898 /* Main.storyboard */,
+				1C38855E2244265800EE8351 /* Assets.xcassets */,
 				1C17995C22357A9200F8EBB6 /* LaunchScreen.storyboard */,
 				1C17995F22357A9200F8EBB6 /* Info.plist */,
+				1C17996522357D0500F8EBB6 /* GoogleService-Info.plist */,
 			);
 			path = ZVLP;
+			sourceTree = "<group>";
+		};
+		1C7BD1592235DA77001D678B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C81ACFB2238819F002B65B4 /* Thought.swift */,
+				1CE67286224FA3A3008A9898 /* Comment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C7BD15A2235DA89001D678B /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				1C17995522357A8E00F8EBB6 /* MainVC.swift */,
+				1CD5C9922237280D002FF915 /* AddThoughtVC.swift */,
+				1C99E09B223EE033007F5B4E /* LoginVC.swift */,
+				1C99E09D223EF0AD007F5B4E /* CreateUserVC.swift */,
+				1CE67280224F8DF8008A9898 /* CommentsVC.swift */,
+				1CA527BF225D0BF100C3B49E /* UpdateCommentVC.swift */,
+			);
+			path = Controler;
+			sourceTree = "<group>";
+		};
+		1C7BD15B2235DAAC001D678B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C81ACFD22388507002B65B4 /* ThoughtCell.swift */,
+				1CE67284224F9CB0008A9898 /* CommentCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C81ACF82238602C002B65B4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1C81ACF922386060002B65B4 /* Constants.swift */,
+				1CA211D92257D25800C97FF9 /* KeyboardBoundView.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1CF73097224AE4DA008E4964 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1CF73098224AE507008E4964 /* Alertable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B5F6EC1BEBF51A7F3144EF28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48A4AF3BAC835326F5EA63F5 /* Pods_ZVLP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF0E8F2CF6FCC951855C61C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45B7646354638FD716E0BF29 /* Pods-ZVLP.debug.xcconfig */,
+				A6E6CB89A2B582A85639FE7E /* Pods-ZVLP.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C17996222357A9200F8EBB6 /* Build configuration list for PBXNativeTarget "ZVLP" */;
 			buildPhases = (
+				63786A51DDAEFCB922B26397 /* [CP] Check Pods Manifest.lock */,
 				1C17994C22357A8D00F8EBB6 /* Sources */,
 				1C17994D22357A8D00F8EBB6 /* Frameworks */,
 				1C17994E22357A8D00F8EBB6 /* Resources */,
+				956E4487248E147749F61012 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +201,7 @@
 				TargetAttributes = {
 					1C17994F22357A8D00F8EBB6 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -123,34 +229,102 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C17995E22357A9200F8EBB6 /* LaunchScreen.storyboard in Resources */,
-				1C17995B22357A9200F8EBB6 /* Assets.xcassets in Resources */,
-				1C17995922357A8E00F8EBB6 /* Main.storyboard in Resources */,
+				1C17996622357D0500F8EBB6 /* GoogleService-Info.plist in Resources */,
+				1C38855F2244265900EE8351 /* Assets.xcassets in Resources */,
+				1CE67283224F96D4008A9898 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63786A51DDAEFCB922B26397 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZVLP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		956E4487248E147749F61012 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZVLP/Pods-ZVLP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZVLP/Pods-ZVLP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1C17994C22357A8D00F8EBB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C17995622357A8E00F8EBB6 /* ViewController.swift in Sources */,
+				1CF73099224AE507008E4964 /* Alertable.swift in Sources */,
+				1CA527C0225D0BF100C3B49E /* UpdateCommentVC.swift in Sources */,
+				1CD5C9932237280D002FF915 /* AddThoughtVC.swift in Sources */,
+				1C99E09E223EF0AD007F5B4E /* CreateUserVC.swift in Sources */,
+				1CE67285224F9CB0008A9898 /* CommentCell.swift in Sources */,
+				1CA211DA2257D25800C97FF9 /* KeyboardBoundView.swift in Sources */,
+				1C81ACFC2238819F002B65B4 /* Thought.swift in Sources */,
+				1CE67281224F8DF8008A9898 /* CommentsVC.swift in Sources */,
+				1C99E09C223EE033007F5B4E /* LoginVC.swift in Sources */,
+				1CE67287224FA3A3008A9898 /* Comment.swift in Sources */,
+				1C17995622357A8E00F8EBB6 /* MainVC.swift in Sources */,
+				1C81ACFE22388507002B65B4 /* ThoughtCell.swift in Sources */,
 				1C17995422357A8E00F8EBB6 /* AppDelegate.swift in Sources */,
+				1C81ACFA22386060002B65B4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1C17995722357A8E00F8EBB6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C17995822357A8E00F8EBB6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1C17995C22357A9200F8EBB6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,37 +454,41 @@
 		};
 		1C17996322357A9200F8EBB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45B7646354638FD716E0BF29 /* Pods-ZVLP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2EKTHK2S2T;
 				INFOPLIST_FILE = ZVLP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sade.ZVLP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1C17996422357A9200F8EBB6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E6CB89A2B582A85639FE7E /* Pods-ZVLP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2EKTHK2S2T;
 				INFOPLIST_FILE = ZVLP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sade.ZVLP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
